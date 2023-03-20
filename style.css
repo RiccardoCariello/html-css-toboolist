@@ -19,7 +19,7 @@ button {
 }
 
 body {
-    background-color: lightgrey;
+    background-color: rgb(238, 238, 238);
     margin: 0px;
 }
 
@@ -38,15 +38,68 @@ h1 {
     margin-top: 30px;
     margin-left: 30px;
     margin-bottom: 0px;
+    font-size: 30px;
 }
 
 p {
-    margin-left: 30px;
+    margin-left: 35px;
     margin-top: 10px;
     margin-bottom: 10px;
+    line-height: 20px;
+    font-size: medium;
+    color:rgb(56, 56, 56);
 }
 
 .ldistance {
     margin-left: 30px;
+}
+/* queste sono le due classi per la v e la x rispettivamente verde e rossa */
+.amark {
+    
+    display:inline-block;
+    color: greenyellow;
+    line-height: 20px;
+}
+
+.dmark {
+    color: red;
+    display:inline-block;
+    line-height: 20px;
+}
+/* qui c'è la classe per le scritte sottolineate */
+.spblock {
+    display: inline-block;    
+    line-height: 20px;
+    border-radius: 5px;
+    color:white;
+    font-size: 10px;
+    padding-left:5px;
+    padding-right:5px;
+    text-align: center;
+    margin-left: 8px;
+}
+/* queste invece sono le classi con i vari colori per le scritte sottolineate*/
+.bgblue{
+    background-color: rgb(68, 154, 211);
+}
+
+.bgpurple{
+    background-color: rgb(125, 61, 179);
+}
+
+.bggreen{
+    background-color: rgb(60, 207, 158);
+}
+
+.bgyellow{
+    background-color: rgb(233, 179, 64);
+}
+
+.bgpink{
+    background-color: rgb(248, 147, 218);
+}
+
+.bglightgreen{
+    background-color: rgb(143, 197, 81);
 }
 
